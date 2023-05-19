@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@font-face {
+  font-family: 'Inter UI';
+  src: local('Inter-UI-Regular'), url('../../fonts/Inter-UI-Regular.otf') format('opentype');
+}
+
+body {
+
+  background-color: #e5e5e5;
+  height: 100%;
+}
+
+#root {
+  display: flex;
+  justify-content: center;
+}
+.App {
+  background-color: white;
+  min-height: 100vh;
+  padding: 20px 32px;
+  flex: 0 1 1010px;
+}
+
+.pagination-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 36px;
+}
